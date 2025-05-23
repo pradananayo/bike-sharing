@@ -18,10 +18,11 @@ Proyek ini bertujuan untuk mengeksplorasi dan menganalisis data dari Bike Sharin
   ```
 
 ## Cara Run 
-Setelah semua dependensi terinstal, jalankan aplikasi Streamlit dengan perintah berikut di terminal:
+Setelah semua dependensi terinstal, masuklah folder root dan jalankan aplikasi Streamlit dengan perintah berikut di terminal:
 
 ```bash
-streamlit run dashboard/dashboard.py
+cd dashboard
+streamlit run dashboard.py
 ```
 Atau click link website ini: [https://bike-sharing-h42qtpy23u7dvqmhsgqqkb.streamlit.app/](https://bike-sharing-w6dgd4rjnhipsamngutdep.streamlit.app/)
 
