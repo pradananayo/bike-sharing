@@ -8,7 +8,7 @@ st.set_page_config(page_title="Dashboard Penyewaan Sepeda", layout="wide")
 st.title("📊 Dashboard Penyewaan Sepeda")
 
 # load data
-day_df = pd.read_csv('data/day.csv')
+day_df = pd.read_csv('day_clean.csv')
 day_df['dteday'] = pd.to_datetime(day_df['dteday'])
 day_df['year_month'] = day_df['dteday'].dt.to_period('M')
 
